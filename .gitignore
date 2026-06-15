@@ -1,0 +1,33 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== SQLite 运行时文件（07_sqlite 等章节生成的本地数据库，非源码）=====
+*.db
+*.db-shm
+*.db-wal
+
+# ===== LangGraph / 本地会话检查点 =====
+checkpoints/
+rag_data/
+.chromadb/
+
+# ===== 环境变量 / 密钥 =====
+.env
+.env.*
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.idea/
+.vscode/
